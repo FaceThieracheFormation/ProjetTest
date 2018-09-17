@@ -29,3 +29,7 @@ document.getElementById('monElementHTML').addEventListener('click', function (ev
     console.log(event);
     alert('Mon élément a été cliqué');
 },false);
+
+
+var div = document.createElement("div");
+document.body.appendChild(div);

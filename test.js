@@ -8,7 +8,19 @@ document.getElementById('monElementHTML').innerText = "Mon nouveau texte";
 
 function maFonction(prenom,nom)
 {
-    alert("Bonjour "+prenom+" "+nom);
-    document.getElementById('monElementHTML').innerText = "Mon nouveau texte";
+    var nomComplet = prenom+" "+nom;
+    alert("Bonjour "+nomComplet);
+    return nomComplet;
+}
+
+var maVariable = 35;
+
+if(maVariable>=35)
+{
+    alert("Ce code sera executé");
+}
+if(maVariable<35)
+{
+    alert("Ce code ne sera pas executé");
 }
 

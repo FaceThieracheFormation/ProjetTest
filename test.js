@@ -39,3 +39,5 @@ document.body.removeChild(divSupprime);
 
 var monImage = document.getElementById('monImage');
 monImage.width = 450+"px";
+
+monImage.style.width = "100px";

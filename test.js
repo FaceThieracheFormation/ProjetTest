@@ -24,3 +24,8 @@ if(maVariable<35)
     alert("Ce code ne sera pas executé");
 }
 
+
+document.getElementById('monElementHTML').addEventListener('click', function (event) {
+    console.log(event);
+    alert('Mon élément a été cliqué');
+},false);

@@ -33,3 +33,6 @@ document.getElementById('monElementHTML').addEventListener('click', function (ev
 
 var div = document.createElement("div");
 document.body.appendChild(div);
+
+var divSupprime = document.getElementById('monElementHTML');
+document.body.removeChild(divSupprime);
